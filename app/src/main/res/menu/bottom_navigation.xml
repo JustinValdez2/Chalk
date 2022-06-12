@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_exercise"
+        android:title="Exercises"
+        android:icon="@android:drawable/ic_menu_save"
+        android:enabled="true"/>
+    <item android:id="@+id/menu_guide"
+        android:title="Workout Guide"
+        android:icon="@android:drawable/ic_menu_save"
+        android:enabled="true"/>
+    <item android:id="@+id/menu_workout"
+        android:title="Workouts"
+        android:icon="@android:drawable/ic_menu_save"
+        android:enabled="true"/>
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swagbear.chalk_mobile">
+
+    <application
+        android:name=".dependency_injection.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name=".screens.home_screen.HomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>>
+        <activity android:name=".screens.create_exercise.CreateExerciseActivity"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".screens.view_exercise.ViewExerciseActivity" />
+        <activity android:name=".screens.view_exercises.ViewExercisesActivity" />
+        <activity android:name=".screens.view_workouts.ViewWorkoutsActivity" />
+        <activity android:name=".screens.view_workout.ViewWorkoutActivity" />
+        <activity android:name=".screens.create_workout.CreateWorkoutActivity"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".screens.workout_guide.WorkoutGuideActivity"/>
+    </application>
+
+</manifest>

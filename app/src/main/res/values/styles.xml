@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorSecondary</item>
+    </style>
+
+
+
+    <style name="BottomNavigation">
+        <item name="itemBackground">@color/colorPrimary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.view_exercise.ViewExerciseActivity">
+
+    <TextView
+        android:id="@+id/txtExcerciseNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Exercise Name: "
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewExerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Error"
+        app:layout_constraintStart_toEndOf="@+id/txtExcerciseNameLabel" />
+
+    <TextView
+        android:id="@+id/txtViewExerciseDesciptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Description: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtExcerciseNameLabel" />
+
+    <TextView
+        android:id="@+id/txtViewExerciseDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="Error"
+        app:layout_constraintStart_toEndOf="@+id/txtViewExerciseDesciptionLabel"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewExerciseName" />
+
+    <TextView
+        android:id="@+id/txtViewExerciseTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:text="Exercise Type: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewExerciseDesciptionLabel" />
+
+    <TextView
+        android:id="@+id/txtViewExerciseType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:text="Error"
+        app:layout_constraintStart_toEndOf="@+id/txtViewExerciseTypeLabel"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewExerciseDescription" />
+
+    <TextView
+        android:id="@+id/txtViewExerciseTargetAreasLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="Target Areas: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewExerciseTypeLabel" />
+
+    <TextView
+        android:id="@+id/txtViewExerciseTargetAreas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="44dp"
+        android:text="Error"
+        app:layout_constraintStart_toEndOf="@+id/txtViewExerciseTargetAreasLabel"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewExerciseType" />
+
+    <ImageButton
+        android:id="@+id/btnEditExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+</android.support.constraint.ConstraintLayout>

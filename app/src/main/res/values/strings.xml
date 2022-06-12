@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Chalk</string>
+    <string name="title_activity_test_db">TestDBActivity</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="title_create_account_login">Create Account</string>
+    <string name="error">Error</string>
+
+    <!--Strings Related to Home Screen-->
+    <string name="label_select_a_workout">Select a Workout:</string>
+    <string name="text_for_start_button">Let\'s Go!</string>
+
+    <!-- Strings related to view workout -->
+    <string name="label_workout_intensity">Intensity:</string>
+    <string name="label_exercise_list">Exercises:</string>
+
+    <!--Strings related to create workout-->
+    <string name="label_select_an_exercise">Select an exercise:</string>
+
+    <!--Activity titles-->
+    <string name="workout_guide_title">Workout Guide</string>
+    <string name="create_exercise_title">Create Exercise</string>
+    <string name="create_workout_title">Create Workout</string>
+    <string name="view_exercise_title">Chalk</string>
+    <string name="view_exercises_title">Exercises</string>
+    <string name="view_workout_title">Chalk</string>
+    <string name="view_workouts_title">Workouts</string>
+
+    <!--Strings Related To Workout Guide-->
+    <string name="next_workout">Next Workout</string>
+    <string name="end_workout">End Workout</string>
+
+</resources>
